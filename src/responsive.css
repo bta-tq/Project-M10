@@ -12,6 +12,10 @@
         float:right;
         width:32%;
     }
+    .pilih {
+        width: 50%;
+        margin-bottom: 50px;
+    }
 }
 
 /* Untuk Smartphone */
@@ -31,5 +35,15 @@
     .judul{
         font-size: 20px;
         text-align: center;
+    }
+    .links {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .pilih {
+        width: 100%;
+        align-items: center;
     }
 }
