@@ -133,6 +133,12 @@ body {
   max-width: 100%;
 }
 
+.top-wrapper li{
+  text-align: left;
+  /* list-style: none; */
+
+}
+
 .clearfix {
   clear: both;
 }
@@ -251,6 +257,7 @@ body {
 
 /* footer */
 footer{
+  margin-top: -30px;
   height:220px;
   width:100%;
   background-color: whitesmoke;
@@ -380,4 +387,22 @@ a.sosmed-icon:hover{
   color: #ccc;
   font-family: cursive;
   margin-top:15px ;
+}
+
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }
