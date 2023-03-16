@@ -1,0 +1,35 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .footer-left{
+        float:left;
+        width:34%;
+    }
+    .footer-center{
+        float:left;
+        width:34%;
+    }
+    .footer-right{
+        float:right;
+        width:32%;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .footer-left{
+        float:left;
+        width:100%;
+    }
+    .footer-center{
+        float:left;
+        width:100%;
+    }
+    .footer-right{
+        float:right;
+        width:100%;
+    }
+    .judul{
+        font-size: 20px;
+        text-align: center;
+    }
+}

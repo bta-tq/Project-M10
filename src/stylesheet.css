@@ -182,7 +182,7 @@ body {
 }
 
 /* footer */
-.footer {
+/* .footer {
   background-color: #efefef;
   box-shadow: 0px 0px 5px 1px #c5c5c5;
   text-align: left;
@@ -207,4 +207,108 @@ body {
   transition: all;
   animation-duration: 300;
   transition: ease;
+} */
+
+footer{
+  height:220px;
+  width:100%;
+  background-color: whitesmoke;
+}
+.sosmed-icon {
+  padding: 4px;
+  background: #8bc6bf;
+  color: #fff;
+  border-radius: 5px;
+}
+a.sosmed-icon:hover{
+  background: #eeddd3!important;
+  color: #8bc6bf!important;
+  padding: 5px;
+}
+.top{
+  background-color: gray;
+  color: white;
+  width:auto;
+  text-align: center;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: candara;
+}
+.footer-left{
+  float:left;
+  width:34%;
+}
+.footer-left p{
+  font-family: candara;
+  list-style: none;
+}
+.footer-center{
+  float:left;
+  width:34%;
+}
+.footer-center li{
+  font-family: candara;
+  list-style: none;
+  padding-left: 10px;
+  letter-spacing: 3px;
+}
+.footer-right{
+  float:right;
+  width:32%;
+}
+.footer-right li{
+  font-family: candara;
+  list-style: none;
+  padding-left: 10px;
+  letter-spacing: 3px;
+}
+.judul{
+  color: #2F4F4F;
+  font-size: 25px;
+  font-family: candara;
+}
+
+/* Untuk Pilihan Paket */
+
+.pilihan-wrapper {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.pilih {
+  float: left;
+  width: 33%;
+  
+}
+
+.pilih-icon {
+  position: relative;
+  
+}
+
+.pilih-icon img {
+  width: 50%;
+  height: 50%;
+}
+
+.pilih-icon p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #000;
 }
