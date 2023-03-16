@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  font-family: cursive;
+
 }
 
 html {
@@ -58,6 +60,8 @@ body {
   color: #ccc;
   text-decoration: none;
   cursor: pointer;
+  padding: 0px 7px;
+  font-family: cursive;
 }
 
 .navbar .header-area .links a:hover {
@@ -108,7 +112,7 @@ body {
 .top-wrapper .info p {
   margin: 0;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 18px;
   color: #5d5d5d;
 }
 
@@ -264,23 +268,22 @@ body {
 
 /* footer */
 footer {
+  padding: 10px;
   margin-top: -30px;
-  height: 220px;
-  width: 100%;
   background-color: whitesmoke;
+  text-align: center;
 }
 
 .sosmed-icon {
-  padding: 4px;
-  background: #8bc6bf;
+  padding: 4px 5px;
+  background: #6c63ff;
   color: #fff;
   border-radius: 5px;
 }
 
 a.sosmed-icon:hover {
-  background: #eeddd3 !important;
-  color: #8bc6bf !important;
-  padding: 5px;
+  background: #4139d3 !important;
+  color: #fff !important;
 }
 
 .top {
@@ -290,17 +293,12 @@ a.sosmed-icon:hover {
   text-align: center;
   padding: 6px;
   border-radius: 4px;
-  font-family: candara;
+  font-family: sans-serif;
 }
 
-.footer-left {
-  float: left;
-  width: 30%;
-  margin-left:30px;
-}
 
 .footer-left p {
-  font-family: candara;
+  font-family: sans-serif;
   list-style: none;
 }
 
@@ -310,28 +308,28 @@ a.sosmed-icon:hover {
 }
 
 .footer-center li {
-  font-family: candara;
+  font-family: sans-serif;
   list-style: none;
   padding-left: 10px;
   letter-spacing: 3px;
 }
 
 .footer-right {
-  float: right;
+  float: left;
   width: 32%;
 }
 
 .footer-right li {
-  font-family: candara;
+  font-family: sans-serif;
   list-style: none;
   padding-left: 10px;
   letter-spacing: 3px;
 }
 
 .judul {
-  color: #2F4F4F;
+  color: whitesmoke;
   font-size: 25px;
-  font-family: candara;
+  font-family: sans-serif;
 }
 
 /* Untuk Pilihan Paket */
@@ -426,8 +424,17 @@ textarea {
 }
 
 .contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+}
+.contact-submit:hover {
+  background-color: #4139d3;
+}
+
+.info button:hover{
+  background-color: #4139d3;
+
 }
 
 .mt-0 {
@@ -438,4 +445,14 @@ textarea {
   margin: 0px 50px;
   box-shadow: 0px 0px 20px 0px #000;
   background-color: #fff;
+}
+.info-form h3{
+  font-size: 32px;
+  font-family: sail;
+}
+.heading h2{
+  font-family: sail;
+}
+.logo strong{
+  font-family: sail;
 }
