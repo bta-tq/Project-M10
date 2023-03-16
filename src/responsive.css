@@ -46,4 +46,19 @@
         width: 100%;
         align-items: center;
     }
+    .top-wrapper .info{
+        width: 70% !important;
+
+    }
+    .top-wrapper .image img{
+        display: none !important;
+    }
+    .res-mt{
+        margin-top: -200px !important;
+    }
+    .info-form{
+        margin-left:50px !important;
+    }
+
+
 }

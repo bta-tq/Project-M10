@@ -17,7 +17,8 @@
         <div class="container">
             <div class="header-area menu-navbar">
                 <div class="logo"><strong>Project</strong>M10</div>
-                <span class="fa fa-bars menu-icon"></span>
+                <!-- <span class="fa fa-bars menu-icon"
+                    style="float: right; position: absolute; right: 0; display: hidden;"></span> -->
                 <div class="links">
                     <a href="#top" class="active-menu">Home</a>
                     <a href="#fitur">Fitur</a>
@@ -67,11 +68,11 @@
                 class="shape-fill"></path>
         </svg>
     </div>
-    <section class="top-wrapper bg-darkblue" id="fitur">
+    <section class="top-wrapper bg-darkblue" id="fitur" style="margin-top: -1px;">
         <div class="image" style="float: left !important; padding-left: 100px;">
             <img src="assets/undraw_note_list_re_r4u9.svg" alt="" srcset="">
         </div>
-        <div class="info  " style="margin-top:100px !important ;">
+        <div class="info  res-mt" style="margin-top:100px   ;">
             <h1 class="title-fitur">Solusi Belajar Lengkap</h1>
             <ul>
                 <li class="list-fitur"><strong>BELAJAR TERENCANA</strong><br>
@@ -89,7 +90,7 @@
 
     <section class="top-wrapper bg-blue" id="paket">
         <div class="wave-content-paket">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+            <svg style="margin-top: -3px;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
                     d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
@@ -139,20 +140,9 @@
             </svg>
         </div>
     </section>
-    <style>
-        .mt-0 {
-            margin-top: 0px;
-        }
-
-        .card-contact {
-            margin: 0px 50px;
-            box-shadow: 0px 0px 20px 0px #000;
-            background-color: #fff;
-        }
-    </style>
     <section class="top-wrapper  " id="contact">
         <div class="card-contact">
-            <div class="info " style="margin-top: 0;">
+            <div class="info info-form" style="margin-top: 0;">
                 <h3 class="section-title">Contact us</h3>
                 <p>Email (Required)</p>
                 <input>
@@ -170,7 +160,7 @@
         </div>
 
     </section>
-    <footer id="bot">
+    <footer>
         <p class="top">Dapatkan informasi bimbingan belajar dengan website kami</p>
         <div class="footer-left">
             <h3 class="judul">Solusi Belajar Terbaik</h3>
